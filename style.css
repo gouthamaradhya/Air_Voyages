@@ -24,3 +24,13 @@ body{
     color: #E6EED6;
     border: none;
 }
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+}
+#search{
+    padding-top: 7px;
+    margin:0;
+}
