@@ -105,3 +105,19 @@ ul{
 #search1:hover{
     background-color: rgba(0,0,0, 89%);
 }
+
+#air{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-bottom: -25px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
