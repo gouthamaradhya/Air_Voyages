@@ -4,7 +4,7 @@
 html,body{
     min-height: 100%;
     background: rgb(167,38,8);
-    background: linear-gradient(231deg, rgba(167,38,8,1) 0%, rgba(167,38,8,1) 29%, rgba(221,226,198,1) 100%);
+    background: linear-gradient(231deg, rgba(121,37,74,1) 0%, rgba(121,37,74,1) 29%, rgba(221,226,198,1) 100%);
 }   
 .container{
     background-color: #090c02;
@@ -89,6 +89,7 @@ ul{
 
 #icon{
     padding-left: 20px;
+    color: rgb(121,37,74);
 }
 
 .inp{
@@ -115,6 +116,7 @@ ul{
     margin: auto;
     padding-left: 10px;
     padding-bottom: -25px;
+    
 }
 
 .logo{
