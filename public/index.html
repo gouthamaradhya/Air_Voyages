@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Reservation System</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="app.mjs" type="module"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <form id="flightSearchForm">
+    <div class="container">
+        <section class="logo">
+        <img id="air" src="air.jpeg">
+       <label id="icon">AIR VOYAGES</label>
+    </section>
+        <ul>
+      <li><button id = "menu"  class="bar" >MENU</button></li>
+       <li><button id="login" class="bar" onclick="window.location.href='login.html'">LOGIN</button></li>
+        <li id="search"><span class="material-symbols-outlined">
+            search
+            </span></li>
+        </ul>
+    </div>
+    <div class="flights">
+        <section class="book">
+            <label style="padding-right:10px;">From</label>
+            <input type="text" id="source" list="places" class="inp"> <!-- Add an ID to the source input -->
+            <label style="padding-left:20px;padding-right:10px;">To</label>
+            <input type="text" id="destination" list="places" class="inp"> <!-- Add an ID to the destination input -->
+        </section>
+        
+    <section class="date">
+    <label id ="source" style="padding-right:10px;">Depart</label>
+        <input type="date" class="inp">
+        <label id = "destination" style="padding-left:25px;padding-right:10px;">Return</label>
+        <input type="date" class="inp">
+    </section>
+    <button id="search1">Search Flights</button>
+    <datalist id="places">
+        <option>Bangalore</option>
+        <option>Delhi</option>
+        <option>Hyderabad</option>
+        <option>Chennai</option>
+        <option>Kolkata</option>
+        <option>Mumbai</option>
+        <option>Mangalore</option>
+        <option>Vishakapatnam</option>
+        <option>New York</option>
+        <option>England</option>
+        <option>Australia</option>
+    </datalist>
+    </div>
+    </form>
+    <div id="flightDetails" class="flight-details"></div>
+
+</body>
+</html>

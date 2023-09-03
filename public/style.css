@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+}
+html,body{
+    min-height: 100%;
+    background: rgb(167,38,8);
+    background: linear-gradient(231deg, rgb(115,35,65) 0%, rgb(115,35,65) 29%, white 100%);
+}   
+.container{
+    background-color: #090c02;
+    margin-top: 2rem;
+    width: 100%;
+    height: 55px;
+    font-family: impact, fantasy;
+    color: #A72608;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: space-between;
+}
+.material-symbols-outlined{
+    font-size: 20px;
+    color: #E6EED6;
+    padding: 0 20px;
+}
+.bar{
+    background-color: #090c02;
+    color: #E6EED6;
+    border: none;
+    padding: 0 20px;
+    
+}
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+}
+#search{
+    padding-top: 7px;
+    margin:0;
+}
+.flights{
+    width: 750px;
+    min-width: 500px;
+    height: 250px;
+    background-color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px rgba(49, 52, 66, 10%);
+}
+
+.book{
+    margin-top: 50px;
+    padding: 30px 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+
+.date{
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.book, .date{
+    align-items: center;
+}
+
+#search1{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 15px;
+    background-color: rgb(103,197,91);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 150px; 
+}
+
+#icon{
+    padding-left: 20px;
+    color: rgb(115,35,65);
+}
+
+.inp{
+    border-radius: 10px;
+    border: solid black 0.5px;
+    height: 25px;
+    width: 150px;
+}
+
+#menu:hover, #login:hover{
+    color: #A72608;
+}
+
+#search1:hover{
+    background-color: rgba(0,0,0, 89%);
+}
+
+#air{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-bottom: -25px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+/* Add this CSS code to your style.css file or include it in a <style> tag in your HTML */
+
+.flight-details {
+    margin-top: 30rem; /* Add spacing between the button and the flight details */
+    padding: 20px; /* Add padding to the flight details container for better visibility */
+    border: 1px solid #ccc; /* Add a border for separation and styling */
+    border-radius: 5px; /* Add rounded corners to the container */
+    background-color: #f5f5f5; /* Set a background color for better contrast */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+  
+  /* Style headings and paragraphs within the flight details container */
+  .flight-details h2 {
+    font-size: 18px; /* Adjust the font size for headings */
+    margin-top: 0; /* Remove default margin for headings */
+  }
+  
+  .flight-details p {
+    font-size: 16px; /* Adjust the font size for paragraphs */
+    margin: 10px 0; /* Add margin to separate paragraphs */
+  }
+  
