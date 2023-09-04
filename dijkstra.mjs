@@ -112,21 +112,4 @@ export async function findCheapestFlight(source, destination) {
   }
 }
 
-// Example usage
-const sourceCity = 'Bangalore';
-const destinationCity = 'New York';
-
-findCheapestFlight(sourceCity, destinationCity)
-  .then((result) => {
-    if (result) {
-      console.log(`Cheapest route from ${sourceCity} to ${destinationCity}:`);
-      console.log(result.route.join(' -> '));
-      console.log(`Total cost: Rs. ${result.cost}`);
-    } else {
-      console.log(`No route found from ${sourceCity} to ${destinationCity}`);
-    }
-  })
-  .catch((error) => {
-    console.error('Error:', error);
-  });
 
