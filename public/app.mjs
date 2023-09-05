@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const cheapestRoute = cheapestFlight.route.join(' -> ');
         const totalCost = cheapestFlight.cost;
         flightDetailsContainer.innerHTML = `
-          <h2>Cheapest Route:</h2>
+          <h2>The Most Affordable Flight:</h2>
           <p>${cheapestRoute}</p>
           <h2>Total Cost:</h2>
           <p>Rs. ${totalCost}</p>

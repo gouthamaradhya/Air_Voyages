@@ -2,7 +2,9 @@
   "dependencies": {
     "datastructures-js": "^13.0.0",
     "express": "^4.18.2",
-    "mysql2": "^3.6.0",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.0.1"
   }
 }
